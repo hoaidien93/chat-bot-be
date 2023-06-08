@@ -17,7 +17,7 @@ Go to https://bard.google.com/
   - Session: Go to Application → Cookies → `__Secure-1PSID`. Copy the value of that cookie.
 Update env file
 ```sh
-cp "SESSION_ID={{YOUR_SESSION}}" > .env
+echo "SESSION_ID={{YOUR_SESSION}}" > .env
 ```
 Run Application
 With docker
