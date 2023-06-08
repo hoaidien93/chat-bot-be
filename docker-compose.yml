@@ -10,4 +10,4 @@ services:
       env_file:
         - ./.env
       ports:
-        - 3002:3001
+        - 3002:3002
